@@ -1,4 +1,6 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.model.Cart;
+
+import code.classesAndInterfaces.model.AbstractProduct.Product;
 
 import java.util.List;
 
@@ -21,14 +23,14 @@ public class Cart {
             }
         }
     }
-    boolean isEmpty() {
+   public boolean isEmpty() {
         return CartItems.isEmpty();
     }
-    void clearCart() {
+    public void clearCart() {
         CartItems.clear();
     }
 
-   List<CartItem> getItems() {
+   public List<CartItem> getItems() {
        return CartItems;
    }
 

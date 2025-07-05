@@ -1,4 +1,4 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.model.AbstractProduct;
 
 public abstract class Product {
     private String name;

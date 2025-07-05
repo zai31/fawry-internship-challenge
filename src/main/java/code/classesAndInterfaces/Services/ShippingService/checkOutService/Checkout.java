@@ -1,4 +1,12 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.Services.ShippingService.checkOutService;
+
+import code.classesAndInterfaces.model.AbstractProduct.Product;
+import code.classesAndInterfaces.model.Cart.Cart;
+import code.classesAndInterfaces.model.Cart.CartItem;
+import code.classesAndInterfaces.Interfaces.Expirable;
+import code.classesAndInterfaces.Interfaces.shippable;
+import code.classesAndInterfaces.Services.ShippingService.ShippingService;
+import code.classesAndInterfaces.model.customer.User;
 
 import java.util.ArrayList;
 import java.util.List;

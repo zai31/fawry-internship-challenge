@@ -1,4 +1,4 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.Interfaces;
 
 public interface shippable {
     double getWeight();

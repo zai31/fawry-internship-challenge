@@ -1,6 +1,9 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.model.ConcreteProducts;
 
-public class TV extends Product implements shippable{
+import code.classesAndInterfaces.model.AbstractProduct.Product;
+import code.classesAndInterfaces.Interfaces.shippable;
+
+public class TV extends Product implements shippable {
     private double weight;
 
     public TV(String name, double price, int quantity, double weight) {

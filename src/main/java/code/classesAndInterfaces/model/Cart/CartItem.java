@@ -1,4 +1,6 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.model.Cart;
+
+import code.classesAndInterfaces.model.AbstractProduct.Product;
 
 public class CartItem {
     private Product product;

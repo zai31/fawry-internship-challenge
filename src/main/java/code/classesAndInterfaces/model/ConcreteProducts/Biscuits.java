@@ -1,4 +1,7 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.model.ConcreteProducts;
+
+import code.classesAndInterfaces.model.AbstractProduct.Product;
+import code.classesAndInterfaces.Interfaces.Expirable;
 
 import java.time.LocalDate;
 

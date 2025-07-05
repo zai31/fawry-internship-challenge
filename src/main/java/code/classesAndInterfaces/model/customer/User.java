@@ -1,4 +1,4 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.model.customer;
 
 public class User {
     private String name;

@@ -1,8 +1,12 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.model.ConcreteProducts;
+
+import code.classesAndInterfaces.model.AbstractProduct.Product;
+import code.classesAndInterfaces.Interfaces.Expirable;
+import code.classesAndInterfaces.Interfaces.shippable;
 
 import java.time.LocalDate;
 
-public class Cheese extends Product implements Expirable, shippable{
+public class Cheese extends Product implements Expirable, shippable {
 
     private LocalDate expiryDate;
 private double weight;

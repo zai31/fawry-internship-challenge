@@ -1,4 +1,6 @@
-package code.classesAndInterfaces;
+package code.classesAndInterfaces.Services.ShippingService;
+
+import code.classesAndInterfaces.Interfaces.shippable;
 
 import java.util.HashMap;
 import java.util.List;

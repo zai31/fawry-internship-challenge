@@ -1,6 +1,13 @@
 package org.example;
 
-import code.classesAndInterfaces.*;
+import code.classesAndInterfaces.model.Cart.Cart;
+import code.classesAndInterfaces.model.AbstractProduct.Product;
+import code.classesAndInterfaces.model.ConcreteProducts.Biscuits;
+import code.classesAndInterfaces.model.ConcreteProducts.Cheese;
+import code.classesAndInterfaces.model.ConcreteProducts.MobileScratchCards;
+import code.classesAndInterfaces.model.ConcreteProducts.TV;
+import code.classesAndInterfaces.Services.ShippingService.checkOutService.Checkout;
+import code.classesAndInterfaces.model.customer.User;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
